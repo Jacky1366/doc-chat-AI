@@ -32,37 +32,51 @@ Doc-Chat-AI is a full-stack web application that allows users to upload document
 - pytest (testing)
 - GitHub Actions (CI/CD)
 
-## 📅 Project Timeline
+# OpsChat Lite
 
-**Duration:** October 1 - December 15, 2025 (10 weeks)
+A document question-answering system with AI-powered search and retrieval. Built with Python and FastAPI as a learning project to demonstrate backend development, database integration, and AI API usage.
 
-- **Weeks 1-2:** Python fundamentals + FastAPI setup
-- **Weeks 3-4:** File upload & database design
-- **Weeks 5-6:** Search functionality & text chunking
-- **Weeks 7-8:** AI integration (embeddings + chat)
-- **Weeks 9-10:** Frontend interface
-- **Week 11:** Polish, documentation, deployment
+## Project Status
 
-Current Status: **🚧 Planning Phase** (Week 0)
+🚧 **Phase 1 Complete** - Foundation with document storage and basic search functionality
 
-## 🎓 Learning Goals
+This project is actively being developed as part of a structured learning plan. Currently implemented features represent Phase 1 of a 3-phase roadmap.
 
-This project is designed to develop skills in:
-- RESTful API development with Python
-- Database design and SQL integration
-- AI/ML integration (RAG - Retrieval Augmented Generation)
-- Frontend-backend communication
+## What It Does
+
+OpsChat Lite allows users to upload documents and ask questions about their content. The system breaks documents into searchable chunks and will eventually use AI to provide intelligent, cited answers.
+
+**Currently Implemented (Phase 1):**
+- FastAPI backend with RESTful endpoints
+- SQLite database for document and chunk storage
+- Health check and ping endpoints
+- Database initialization and management
+- Project structure ready for file upload and indexing features
+
+**Planned Features (Phase 2-3):**
+- Document upload and text extraction
+- Intelligent text chunking
+- Embedding-based semantic search
+- AI-powered question answering with citations
+- React frontend interface
+
+## Technology Stack
+
+- **Backend Framework:** FastAPI (Python 3.10+)
+- **Database:** SQLite with plans to migrate to PostgreSQL with pgvector
+- **API Server:** Uvicorn
+- **Future Integrations:** OpenAI API for embeddings and chat
+
+## Why This Project?
+
+This project demonstrates practical full-stack development skills needed for software developer co-op positions:
+- RESTful API design and implementation
+- Database schema design and SQL operations
+- Modern Python web development with FastAPI
+- AI/ML API integration
 - Full-stack application architecture
-- Clean code practices and documentation
 
-## 🎯 Target Job Alignment
 
-Built to demonstrate skills for co-op positions requiring:
-- Python development (FastAPI)
-- Full-stack web development
-- OpenAI API integration
-- Linux deployment
-- Modern JavaScript
 
 ## 📝 Architecture (High-Level)
 
